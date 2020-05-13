@@ -8,3 +8,4 @@ C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Flyweight\obj\Debug\netcoreap
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Flyweight\obj\Debug\netcoreapp3.1\Flyweight.AssemblyInfo.cs
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Flyweight\obj\Debug\netcoreapp3.1\Flyweight.dll
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Flyweight\obj\Debug\netcoreapp3.1\Flyweight.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Flyweight\obj\Debug\netcoreapp3.1\Flyweight.csprojAssemblyReference.cache
