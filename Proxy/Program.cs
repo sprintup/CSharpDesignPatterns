@@ -7,12 +7,29 @@ namespace Proxy
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! proxy");
+            // Real-world code in C#
+            MathProxy proxy = new MathProxy();
 
-            Proxy proxy = new Proxy();
-            proxy.Request();
+            Console.WriteLine("4 + 2 = " + proxy.Add(4, 2));
+            Console.WriteLine("4 - 2 = " + proxy.Sub(4, 2));
+            Console.WriteLine("4 * 2 = " + proxy.Mul(4, 2));
+            Console.WriteLine("4 / 2 = " + proxy.Div(4, 2));
+
+
+            // Structural C#
+            Proxy proxy1 = new Proxy();
+            proxy1.Request();
 
             Console.ReadKey();
         }
+    }
+
+    public interface IMath
+    {
+        double Add(double x, double y);
+        double Sub(double x, double y);
+        double Mul(double x, double y);
+        double Div(double x, double y);
     }
 
     abstract class Subject
@@ -20,11 +37,42 @@ namespace Proxy
         public abstract void Request();
     }
 
+    class Math : IMath
+    {
+        public double Add(double x, double y) { return x + y; }
+        public double Sub(double x, double y) { return x - y; }
+        public double Mul(double x, double y) { return x * y; }
+        public double Div(double x, double y) { return x / y; }
+
+    }
+
     class RealSubject : Subject
     {
         public override void Request()
         {
             Console.WriteLine("Called RealSubject.Request()");
+        }
+    }
+
+    class MathProxy : IMath
+    {
+        private Math _math = new Math();
+
+        public double Add(double x, double y)
+        {
+            return _math.Add(x, y);
+        }
+        public double Sub(double x, double y)
+        {
+            return _math.Sub(x, y);
+        }
+        public double Mul(double x, double y)
+        {
+            return _math.Mul(x, y);
+        }
+        public double Div(double x, double y)
+        {
+            return _math.Div(x, y);
         }
     }
 
