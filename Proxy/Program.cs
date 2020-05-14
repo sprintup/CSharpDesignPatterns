@@ -23,7 +23,7 @@ namespace Proxy
             Console.ReadKey();
         }
     }
-
+    //Subject interface
     public interface IMath
     {
         double Add(double x, double y);
@@ -37,6 +37,7 @@ namespace Proxy
         public abstract void Request();
     }
 
+    // RealSubject
     class Math : IMath
     {
         public double Add(double x, double y) { return x + y; }
@@ -53,7 +54,7 @@ namespace Proxy
             Console.WriteLine("Called RealSubject.Request()");
         }
     }
-
+    // Proxy object class
     class MathProxy : IMath
     {
         private Math _math = new Math();
