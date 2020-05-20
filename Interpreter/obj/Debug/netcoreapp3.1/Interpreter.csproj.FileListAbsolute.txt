@@ -1,0 +1,10 @@
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.AssemblyInfoInputs.cache
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.AssemblyInfo.cs
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.exe
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.deps.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.runtimeconfig.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.runtimeconfig.dev.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.pdb
