@@ -8,3 +8,4 @@ C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\bin\Debug\netcore
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.pdb
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.dll
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.csprojAssemblyReference.cache
