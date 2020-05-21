@@ -8,3 +8,4 @@ C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Iterator\obj\Debug\netcoreapp
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Iterator\obj\Debug\netcoreapp3.1\Iterator.AssemblyInfo.cs
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Iterator\obj\Debug\netcoreapp3.1\Iterator.dll
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Iterator\obj\Debug\netcoreapp3.1\Iterator.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Iterator\obj\Debug\netcoreapp3.1\Iterator.csprojAssemblyReference.cache
