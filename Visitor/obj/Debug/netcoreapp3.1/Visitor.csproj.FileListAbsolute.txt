@@ -8,3 +8,4 @@ C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Visitor\obj\Debug\netcoreapp3
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Visitor\obj\Debug\netcoreapp3.1\Visitor.AssemblyInfo.cs
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Visitor\obj\Debug\netcoreapp3.1\Visitor.dll
 C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Visitor\obj\Debug\netcoreapp3.1\Visitor.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Visitor\obj\Debug\netcoreapp3.1\Visitor.csprojAssemblyReference.cache
