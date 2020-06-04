@@ -1,0 +1,11 @@
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\obj\Debug\netcoreapp3.1\Factory_Method.csprojAssemblyReference.cache
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\obj\Debug\netcoreapp3.1\Factory_Method.AssemblyInfoInputs.cache
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\obj\Debug\netcoreapp3.1\Factory_Method.AssemblyInfo.cs
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\bin\Debug\netcoreapp3.1\Factory_Method.exe
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\bin\Debug\netcoreapp3.1\Factory_Method.deps.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\bin\Debug\netcoreapp3.1\Factory_Method.runtimeconfig.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\bin\Debug\netcoreapp3.1\Factory_Method.runtimeconfig.dev.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\bin\Debug\netcoreapp3.1\Factory_Method.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\bin\Debug\netcoreapp3.1\Factory_Method.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\obj\Debug\netcoreapp3.1\Factory_Method.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Factory_Method\obj\Debug\netcoreapp3.1\Factory_Method.pdb

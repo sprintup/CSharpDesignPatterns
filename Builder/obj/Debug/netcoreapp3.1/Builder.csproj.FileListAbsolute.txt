@@ -1,0 +1,11 @@
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\bin\Debug\netcoreapp3.1\Builder.exe
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\bin\Debug\netcoreapp3.1\Builder.deps.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\bin\Debug\netcoreapp3.1\Builder.runtimeconfig.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\bin\Debug\netcoreapp3.1\Builder.runtimeconfig.dev.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\bin\Debug\netcoreapp3.1\Builder.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\bin\Debug\netcoreapp3.1\Builder.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\obj\Debug\netcoreapp3.1\Builder.AssemblyInfoInputs.cache
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\obj\Debug\netcoreapp3.1\Builder.AssemblyInfo.cs
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\obj\Debug\netcoreapp3.1\Builder.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\obj\Debug\netcoreapp3.1\Builder.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Builder\obj\Debug\netcoreapp3.1\Builder.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\bin\Debug\netcoreapp3.1\Bridge.exe
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\bin\Debug\netcoreapp3.1\Bridge.deps.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\bin\Debug\netcoreapp3.1\Bridge.runtimeconfig.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\bin\Debug\netcoreapp3.1\Bridge.runtimeconfig.dev.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\bin\Debug\netcoreapp3.1\Bridge.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\bin\Debug\netcoreapp3.1\Bridge.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\obj\Debug\netcoreapp3.1\Bridge.AssemblyInfoInputs.cache
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\obj\Debug\netcoreapp3.1\Bridge.AssemblyInfo.cs
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\obj\Debug\netcoreapp3.1\Bridge.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\obj\Debug\netcoreapp3.1\Bridge.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Bridge\obj\Debug\netcoreapp3.1\Bridge.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\obj\Debug\netcoreapp3.1\Prototype.csprojAssemblyReference.cache
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\obj\Debug\netcoreapp3.1\Prototype.AssemblyInfoInputs.cache
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\obj\Debug\netcoreapp3.1\Prototype.AssemblyInfo.cs
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\bin\Debug\netcoreapp3.1\Prototype.exe
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\bin\Debug\netcoreapp3.1\Prototype.deps.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\bin\Debug\netcoreapp3.1\Prototype.runtimeconfig.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\bin\Debug\netcoreapp3.1\Prototype.runtimeconfig.dev.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\bin\Debug\netcoreapp3.1\Prototype.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\bin\Debug\netcoreapp3.1\Prototype.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\obj\Debug\netcoreapp3.1\Prototype.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Prototype\obj\Debug\netcoreapp3.1\Prototype.pdb
