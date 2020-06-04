@@ -6,4 +6,19 @@
     <RootNamespace>Template_Method</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <COMReference Include="{7f668825-28e5-47d1-8ed3-8f62019590f6}">
+      <Guid>7f668825-28e5-47d1-8ed3-8f62019590f6</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{c8b522d5-5cf3-11ce-ade5-00aa0044773d}">
+      <Guid>c8b522d5-5cf3-11ce-ade5-00aa0044773d</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+
 </Project>
