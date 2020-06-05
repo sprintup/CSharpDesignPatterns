@@ -1,21 +1,11 @@
-﻿using AbstractFactory;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace CSharpDesignPatternPractice
+namespace AbstractFactory1and2
 {
-    class Program
+    class AbstractFactory1and2
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World! abstract factory");
-            AbstractFactory3.Demonstrate();
-            Console.WriteLine("\nAbstract Factory 1&2\n");
-            ContinentFactory africa = new AfricaFactory();
-            AnimalWorld world = new AnimalWorld(africa);
-            world.RunFoodChain();
-
-            Console.ReadKey();
-        }
     }
     abstract class ContinentFactory
     {

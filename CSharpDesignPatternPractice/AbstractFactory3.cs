@@ -1,22 +1,20 @@
-﻿using AbstractFactory;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace CSharpDesignPatternPractice
+namespace AbstractFactory
 {
-    class Program
+    class AbstractFactory3
     {
-        static void Main(string[] args)
+        public static void Demonstrate()
         {
-            Console.WriteLine("Hello World! abstract factory");
-            AbstractFactory3.Demonstrate();
-            Console.WriteLine("\nAbstract Factory 1&2\n");
+            Console.WriteLine("AbstractFactory3");
             ContinentFactory africa = new AfricaFactory();
             AnimalWorld world = new AnimalWorld(africa);
             world.RunFoodChain();
-
-            Console.ReadKey();
         }
     }
+
     abstract class ContinentFactory
     {
         public abstract Herbivore CreateHerbivore();
@@ -34,6 +32,7 @@ namespace CSharpDesignPatternPractice
             return new Lion();
         }
     }
+
     class Herbivore { }
     class Wildebeest : Herbivore { }
     abstract class Carnivore
@@ -47,7 +46,6 @@ namespace CSharpDesignPatternPractice
             Console.WriteLine(this.GetType().Name + " eats " + h.GetType().Name);
         }
     }
-
     class AnimalWorld
     {
         private Herbivore _herbivore;
@@ -58,7 +56,6 @@ namespace CSharpDesignPatternPractice
             _herbivore = factory.CreateHerbivore();
             _carnivore = factory.CreateCarnivore();
         }
-
         public void RunFoodChain()
         {
             _carnivore.Eat(_herbivore);
