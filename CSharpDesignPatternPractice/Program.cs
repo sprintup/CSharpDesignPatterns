@@ -8,11 +8,8 @@ namespace CSharpDesignPatternPractice
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! abstract factory");
-            AbstractFactory3.Demonstrate();
-            Console.WriteLine("\nAbstract Factory 1&2\n");
-            ContinentFactory africa = new AfricaFactory();
-            AnimalWorld world = new AnimalWorld(africa);
-            world.RunFoodChain();
+            AbstractFactoryRealWorld.Run();
+            //AbstractFactory3.Demonstrate();
 
             Console.ReadKey();
         }

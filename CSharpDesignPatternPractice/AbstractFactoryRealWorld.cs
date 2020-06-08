@@ -2,17 +2,27 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AbstractFactory1and2
+namespace AbstractFactory
 {
-    class AbstractFactory1and2
+    class AbstractFactoryRealWorld
     {
+        public static void Run()
+        {
+            Console.WriteLine("\nAbstract Factory Real World\n");
+            ContinentFactory africa = new AfricaFactory();
+            AnimalWorld world = new AnimalWorld(africa);
+            world.RunFoodChain();
+
+            ContinentFactory america = new AmericaFactory();
+            world = new AnimalWorld(america);
+            world.RunFoodChain();
+        }
     }
     abstract class ContinentFactory
     {
         public abstract Herbivore CreateHerbivore();
         public abstract Carnivore CreateCarnivore();
     }
-
     class AfricaFactory : ContinentFactory
     {
         public override Herbivore CreateHerbivore()
@@ -24,6 +34,19 @@ namespace AbstractFactory1and2
             return new Lion();
         }
     }
+
+    class AmericaFactory : ContinentFactory
+    {
+        public override Herbivore CreateHerbivore()
+        {
+            return new Bison();
+        }
+        public override Carnivore CreateCarnivore()
+        {
+            return new Wolf();
+        }
+    }
+
     class Herbivore { }
     class Wildebeest : Herbivore { }
     abstract class Carnivore
@@ -37,7 +60,16 @@ namespace AbstractFactory1and2
             Console.WriteLine(this.GetType().Name + " eats " + h.GetType().Name);
         }
     }
+    
+    class Bison : Herbivore { }
 
+    class Wolf : Carnivore
+    {
+        public override void Eat(Herbivore h)
+        {
+            Console.WriteLine(this.GetType().Name + " eats " + h.GetType().Name);
+        }
+    }
     class AnimalWorld
     {
         private Herbivore _herbivore;
