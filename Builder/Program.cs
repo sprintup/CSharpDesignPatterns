@@ -8,12 +8,11 @@ namespace Builder
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! builder");
-            Builder1and2.Run();
+            //BuilderRealWorld.Run();
+            BuilderStructural.Run();
 
             //wait for user
             Console.ReadKey();
         }
-
-
     }
 }

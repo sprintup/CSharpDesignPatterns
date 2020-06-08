@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Builder
 {
-    class Builder1and2
+    class BuilderRealWorld
     {
         public static void Run()
         {
