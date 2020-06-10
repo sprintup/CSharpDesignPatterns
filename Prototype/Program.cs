@@ -8,7 +8,7 @@ namespace Prototype
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! prototype");
-            Prototype_Structural.Run();
+            //Prototype_Structural.Run();
             Prototype_RealWorld.Run();
 
             Console.ReadKey();
