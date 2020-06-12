@@ -1,0 +1,10 @@
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Observer\bin\Debug\netcoreapp3.1\Observer+++++.exe
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Observer\bin\Debug\netcoreapp3.1\Observer+++++.deps.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Observer\bin\Debug\netcoreapp3.1\Observer+++++.runtimeconfig.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Observer\bin\Debug\netcoreapp3.1\Observer+++++.runtimeconfig.dev.json
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Observer\bin\Debug\netcoreapp3.1\Observer+++++.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Observer\bin\Debug\netcoreapp3.1\Observer+++++.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Observer\obj\Debug\netcoreapp3.1\Observer+++++.AssemblyInfoInputs.cache
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Observer\obj\Debug\netcoreapp3.1\Observer+++++.AssemblyInfo.cs
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Observer\obj\Debug\netcoreapp3.1\Observer+++++.dll
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Observer\obj\Debug\netcoreapp3.1\Observer+++++.pdb

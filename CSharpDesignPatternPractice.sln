@@ -53,7 +53,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template Method", "Template Method\Template Method.csproj", "{373E8FC8-8D84-4130-9C4A-E70ACE41C8EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{63BAD113-1916-4260-AE04-1B77A5F16323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{63BAD113-1916-4260-AE04-1B77A5F16323}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
