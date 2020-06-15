@@ -58,10 +58,12 @@ namespace Observer
                 set { _subjectState = value; }
             }
         }
+
         abstract class Observer
         {
             public abstract void Update();
         }
+
         class ConcreteObserver : Observer
         {
             private string _name;
