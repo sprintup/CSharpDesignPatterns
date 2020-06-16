@@ -1,10 +1,1 @@
-C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\bin\Debug\netcoreapp3.1\Template Method.exe
-C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\bin\Debug\netcoreapp3.1\Template Method.deps.json
-C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\bin\Debug\netcoreapp3.1\Template Method.runtimeconfig.json
-C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\bin\Debug\netcoreapp3.1\Template Method.runtimeconfig.dev.json
-C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\bin\Debug\netcoreapp3.1\Template Method.dll
-C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\bin\Debug\netcoreapp3.1\Template Method.pdb
-C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\obj\Debug\netcoreapp3.1\Template Method.AssemblyInfoInputs.cache
-C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\obj\Debug\netcoreapp3.1\Template Method.AssemblyInfo.cs
-C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\obj\Debug\netcoreapp3.1\Template Method.dll
-C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\obj\Debug\netcoreapp3.1\Template Method.pdb
+C:\Users\Basic\Desktop\CSharpDesignPatternPractice\Template Method\obj\Debug\netcoreapp3.1\Template Method.csprojAssemblyReference.cache
