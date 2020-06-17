@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Basic\\Desktop\\CSharpDesignPatternPractice\\CSharpDesignPatternPractice\\AbstractFactory.csproj": {}
+    "C:\\Users\\Basic\\Desktop\\CSharpDesignPatternPractice\\AbstractFactory\\AbstractFactory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Basic\\Desktop\\CSharpDesignPatternPractice\\CSharpDesignPatternPractice\\AbstractFactory.csproj": {
+    "C:\\Users\\Basic\\Desktop\\CSharpDesignPatternPractice\\AbstractFactory\\AbstractFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Basic\\Desktop\\CSharpDesignPatternPractice\\CSharpDesignPatternPractice\\AbstractFactory.csproj",
+        "projectUniqueName": "C:\\Users\\Basic\\Desktop\\CSharpDesignPatternPractice\\AbstractFactory\\AbstractFactory.csproj",
         "projectName": "AbstractFactory",
-        "projectPath": "C:\\Users\\Basic\\Desktop\\CSharpDesignPatternPractice\\CSharpDesignPatternPractice\\AbstractFactory.csproj",
+        "projectPath": "C:\\Users\\Basic\\Desktop\\CSharpDesignPatternPractice\\AbstractFactory\\AbstractFactory.csproj",
         "packagesPath": "C:\\Users\\Basic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Basic\\Desktop\\CSharpDesignPatternPractice\\CSharpDesignPatternPractice\\obj\\",
+        "outputPath": "C:\\Users\\Basic\\Desktop\\CSharpDesignPatternPractice\\AbstractFactory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Basic\\AppData\\Roaming\\NuGet\\NuGet.Config",
