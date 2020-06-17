@@ -8,7 +8,7 @@ namespace AbstractFactory
     {
         public static void Run()
         {
-            Console.WriteLine("\nAbstract Factory Real World\n");
+            Console.WriteLine("This real-world code demonstrates the creation of different animal worlds for a computer game using different factories. Although the animals created by the Continent factories are different, the interactions among the animals remain the same.");
             ContinentFactory africa = new AfricaFactory();
             AnimalWorld world = new AnimalWorld(africa);
             world.RunFoodChain();
@@ -16,6 +16,10 @@ namespace AbstractFactory
             ContinentFactory america = new AmericaFactory();
             world = new AnimalWorld(america);
             world.RunFoodChain();
+            /*
+            Lion eats Wildebeest
+            Wolf eats Bison             
+             */
         }
     }
     abstract class ContinentFactory
