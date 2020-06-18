@@ -8,7 +8,7 @@ namespace Factory_Method
     {
         public static void Run()
         {
-            Console.WriteLine("Factory Method Structural");
+            Console.WriteLine("This structural code demonstrates the Factory method offering great flexibility in creating different objects. The Abstract class may provide a default object, but each subclass can instantiate an extended version of the object.");
             Creator[] creators = new Creator[2];
 
             creators[0] = new ConcreteCreatorA();
@@ -19,6 +19,10 @@ namespace Factory_Method
                 Product product = creator.FactoryMethod();
                 Console.WriteLine("Created {0}", product.GetType().Name);
             }
+            /*
+            Created ConcreteProductA
+            Created ConcreteProductB          
+             */
         }
         abstract class Product { }
         class ConcreteProductA : Product { }

@@ -8,7 +8,7 @@ namespace Factory_Method
     {
         public static void Run()
         {
-            Console.WriteLine("Factory Method Real World");
+            Console.WriteLine("This real-world code demonstrates the Factory method offering flexibility in creating different documents. The derived Document classes Report and Resume instantiate extended versions of the Document class. Here, the Factory Method is called in the constructor of the Document base class.");
             Document[] documents = new Document[2];
             documents[0] = new Resume();
             documents[1] = new Report();
@@ -21,6 +21,19 @@ namespace Factory_Method
                     Console.WriteLine(" " + page.GetType().Name);
                 }
             }
+            /*
+            Resume -------
+             SkillsPage
+             EducationPage
+             ExperiencePage
+
+            Report -------
+             IntroductionPage
+             ResultsPage
+             ConclusionPage
+             SummaryPage
+             BibliographyPage          
+             */
         }
         abstract class Page { }
         class SkillsPage : Page { }
