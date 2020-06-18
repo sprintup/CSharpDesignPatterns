@@ -8,6 +8,7 @@ namespace Builder
     {
         public static void Run()
         {
+            Console.WriteLine("This structural code demonstrates the Builder pattern in which complex objects are created in a step-by-step fashion. The construction process can create different object representations and provides a high level of control over the assembly of the objects.");
             Director director = new Director();
 
             Builder b1 = new ConcreteBuilder1();
@@ -20,6 +21,15 @@ namespace Builder
             director.Construct(b2);
             Product p2 = b2.GetResult();
             p2.Show();
+            /*
+            Product Parts -------
+            PartA
+            PartB
+
+            Product Parts -------
+            PartX
+            PartY             
+             */
         }
     }
 

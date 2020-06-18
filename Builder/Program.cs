@@ -7,9 +7,11 @@ namespace Builder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! builder");
-            //BuilderRealWorld.Run();
+            Console.WriteLine("Hello World! \nBuilder: Separate the construction of a complex object from its representation so that the same construction process can create different representations.");
+
             BuilderStructural.Run();
+            Console.WriteLine("-----");
+            BuilderRealWorld.Run();
 
             //wait for user
             Console.ReadKey();
