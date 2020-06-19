@@ -8,9 +8,12 @@ namespace Adapter
     {
         public static void Run()
         {
-            Console.WriteLine("Structural");
+            Console.WriteLine("This structural code demonstrates the Adapter pattern which maps the interface of one class onto another so that they can work together. These incompatible classes may come from different libraries or frameworks.");
             Target target = new Adapter();
             target.Request();
+            /*
+            Called SpecificRequest()             
+             */
         }
 
         class Target

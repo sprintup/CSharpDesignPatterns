@@ -8,7 +8,7 @@ namespace Adapter
     {
         public static void Run()
         {
-            Console.WriteLine("RealWorld");
+            Console.WriteLine("This real-world code demonstrates the use of a legacy chemical databank. Chemical compound objects access the databank through an Adapter interface.");
             Compound unknown = new Compound("Unknown");
             unknown.Display();
 
@@ -20,6 +20,27 @@ namespace Adapter
 
             Compound ethanol = new RichCompound("Ethanol");
             ethanol.Display();
+            /*
+            Compound: Unknown ------
+
+            Compound: Water ------
+             Formula: H20
+             Weight : 18.015
+             Melting Pt: 0
+             Boiling Pt: 100
+
+            Compound: Benzene ------
+             Formula: C6H6
+             Weight : 78.1134
+             Melting Pt: 5.5
+             Boiling Pt: 80.1
+
+            Compound: Alcohol ------
+             Formula: C2H6O2
+             Weight : 46.0688
+             Melting Pt: -114.1
+             Boiling Pt: 78.3             
+             */
         }
         class Compound
         {
