@@ -8,7 +8,7 @@ namespace Bridge
     {
         public static void Run()
         {
-            Console.WriteLine("Structural");
+            Console.WriteLine("This structural code demonstrates the Bridge pattern which separates (decouples) the interface from its implementation. The implementation can evolve without changing clients which use the abstraction of the object.");
             Abstraction ab = new RefinedAbstraction();
 
             ab.Implementor = new ConcreteImplementorA();
@@ -16,6 +16,10 @@ namespace Bridge
 
             ab.Implementor = new ConcreteImplementorB();
             ab.Operation();
+            /*
+            ConcreteImplementorA Operation
+            ConcreteImplementorB Operation             
+             */
         }
         class Abstraction
         {

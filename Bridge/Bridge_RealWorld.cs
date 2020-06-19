@@ -8,7 +8,8 @@ namespace Bridge
     {
         public static void Run()
         {
-            Console.WriteLine("Real World");
+            Console.WriteLine("This real-world code demonstrates the Bridge pattern in which a BusinessObject abstraction is decoupled from the implementation in DataObject. The DataObject implementations can evolve dynamically without changing any clients.");
+
             Customers customers = new Customers("Chicago");
             customers.Data = new CustomersData();
 
@@ -20,6 +21,21 @@ namespace Bridge
             customers.Add("Henry Velasquez");
 
             customers.ShowAll();
+            /*
+            Jim Jones
+            Samual Jackson
+            Allen Good
+
+            ------------------------
+            Customer Group: Chicago
+            Jim Jones
+            Samual Jackson
+            Allen Good
+            Ann Stills
+            Lisa Giolani
+            Henry Velasquez
+            ------------------------             
+             */
         }
         class CustomersBase
         {
