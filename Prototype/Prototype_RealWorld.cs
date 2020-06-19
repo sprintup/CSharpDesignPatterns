@@ -8,7 +8,7 @@ namespace Prototype
     {
         public static void Run()
         {
-            Console.WriteLine("Prototype Real World");
+            Console.WriteLine("This real-world code demonstrates the Prototype pattern in which new Color objects are created by copying pre-existing, user-defined Colors of the same type.");
             ColorManager colormanager = new ColorManager();
             colormanager["red"] = new Color(255, 0, 0);
             colormanager["green"] = new Color(0, 255, 0);
@@ -21,6 +21,11 @@ namespace Prototype
             Color color1 = colormanager["red"].Clone() as Color;
             Color color2 = colormanager["peace"].Clone() as Color;
             Color color3 = colormanager["flame"].Clone() as Color;
+            /*
+            Cloning color RGB: 255,  0,  0
+            Cloning color RGB: 128,211,128
+            Cloning color RGB: 211, 34, 20             
+             */
         }
         abstract class ColorPrototype
         {

@@ -8,7 +8,7 @@ namespace Prototype
     {
         public static void Run()
         {
-            Console.WriteLine("Prototype Structural");
+            Console.WriteLine("This structural code demonstrates the Prototype pattern in which new objects are created by copying pre-existing objects (prototypes) of the same class.");
             ConcretePrototype1 p1 = new ConcretePrototype1("I");
             ConcretePrototype1 c1 = (ConcretePrototype1)p1.Clone();
 
@@ -16,6 +16,10 @@ namespace Prototype
             ConcretePrototype2 p2 = new ConcretePrototype2("II");
             ConcretePrototype2 c2 = (ConcretePrototype2)p2.Clone();
             Console.WriteLine("Cloned: {0}", c2.Id);
+            /*
+            Cloned: I
+            Cloned: II             
+             */
         }
 
         abstract class Prototype
