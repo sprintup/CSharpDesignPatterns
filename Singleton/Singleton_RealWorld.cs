@@ -8,7 +8,7 @@ namespace Singleton
     {
         public static void Run()
         {
-            Console.WriteLine("Real World");
+            Console.WriteLine("This real-world code demonstrates the Singleton pattern as a LoadBalancing object. Only a single instance (the singleton) of the class can be created because servers may dynamically come on- or off-line and every request must go throught the one object that has knowledge about the state of the (web) farm.");
 
             LoadBalancer b1 = LoadBalancer.GetLoadBalancer();
             LoadBalancer b2 = LoadBalancer.GetLoadBalancer();
@@ -26,6 +26,26 @@ namespace Singleton
                 string server = balancer.Server;
                 Console.WriteLine("Dispatch Request to: " + server);
             }
+
+            /*
+            Same instance
+
+            ServerIII
+            ServerII
+            ServerI
+            ServerII
+            ServerI
+            ServerIII
+            ServerI
+            ServerIII
+            ServerIV
+            ServerII
+            ServerII
+            ServerIII
+            ServerIV
+            ServerII
+            ServerIV             
+             */
         }
 
         class LoadBalancer

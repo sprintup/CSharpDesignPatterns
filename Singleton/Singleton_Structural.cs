@@ -8,7 +8,7 @@ namespace Singleton
     {
         public static void Run()
         {
-            Console.WriteLine("Structural");
+            Console.WriteLine("This structural code demonstrates the Singleton pattern which assures only a single instance (the singleton) of the class can be created.");
             Singleton s1 = Singleton.Instance();
             Singleton s2 = Singleton.Instance();
 
@@ -16,6 +16,9 @@ namespace Singleton
             {
                 Console.WriteLine("Objects are the same instance");
             }
+            /*
+            Objects are the same instance             
+             */
         }
 
         class Singleton
