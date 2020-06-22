@@ -8,7 +8,7 @@ namespace Composite
     {
         public static void Run()
         {
-            Console.WriteLine("Structural");
+            Console.WriteLine("This structural code demonstrates the Composite pattern which allows the creation of a tree structure in which individual nodes are accessed uniformly whether they are leaf nodes or branch (composite) nodes.");
             Composite root1 = new Composite("root");
             root1.Add(new Leaf("Leaf A"));
             root1.Add(new Leaf("Leaf B"));
@@ -25,7 +25,15 @@ namespace Composite
             root1.Remove(leaf);
 
             root1.Display(1);
-
+            /*
+            -root
+            ---Leaf A
+            ---Leaf B
+            ---Composite X
+            -----Leaf XA
+            -----Leaf XB
+            ---Leaf C             
+             */
         }
 
         abstract class Component

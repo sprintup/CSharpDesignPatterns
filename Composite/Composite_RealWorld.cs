@@ -8,7 +8,7 @@ namespace Composite
     {
         public static void Run()
         {
-            Console.WriteLine("Real World");
+            Console.WriteLine("This real-world code demonstrates the Composite pattern used in building a graphical tree structure made up of primitive nodes (lines, circles, etc) and composite nodes (groups of drawing elements that make up more complex elements).");
             CompositeElement root = new CompositeElement("Picture");
             root.Add(new PrimitiveElement("Red Line"));
             root.Add(new PrimitiveElement("Blue Circle"));
@@ -24,6 +24,15 @@ namespace Composite
             root.Remove(pe);
 
             root.Display(1);
+            /*
+            -+ Picture
+            --- Red Line
+            --- Blue Circle
+            --- Green Box
+            ---+ Two Circles
+            ----- Black Circle
+            ----- White Circle             
+             */
         }
 
         abstract class DrawingElement
