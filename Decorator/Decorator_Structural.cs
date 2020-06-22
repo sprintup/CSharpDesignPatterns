@@ -39,7 +39,7 @@ namespace Decorator
             }
         }
 
-        abstract class Decorator1 : Component
+        abstract class Decorator : Component
         {
             protected Component component;
 
@@ -57,7 +57,7 @@ namespace Decorator
             }
         }
 
-        class ConcreteDecoratorA : Decorator1
+        class ConcreteDecoratorA : Decorator
         {
             public override void Operation()
             {
@@ -66,7 +66,7 @@ namespace Decorator
             }
         }
 
-        class ConcreteDecoratorB : Decorator1
+        class ConcreteDecoratorB : Decorator
         {
             public override void Operation()
             {
