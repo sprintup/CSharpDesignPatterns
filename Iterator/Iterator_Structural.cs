@@ -16,7 +16,7 @@ namespace Iterator
             a[2] = "Item C";
             a[3] = "Item D";
 
-            Iterator1 i = a.CreateIterator();
+            Iterator i = a.CreateIterator();
 
             Console.WriteLine("Iterating over collection");
 
@@ -36,13 +36,13 @@ namespace Iterator
         }
         abstract class Aggregate
         {
-            public abstract Iterator1 CreateIterator();
+            public abstract Iterator CreateIterator();
         }
         class ConcreteAggregate : Aggregate
         {
             private ArrayList _items = new ArrayList();
 
-            public override Iterator1 CreateIterator()
+            public override Iterator CreateIterator()
             {
                 return new ConcreteIterator(this);
             }
@@ -58,14 +58,14 @@ namespace Iterator
                 set { _items.Insert(index, value); }
             }
         }
-        abstract class Iterator1
+        abstract class Iterator
         {
             public abstract object First();
             public abstract object Next();
             public abstract bool IsDone();
             public abstract object CurrentItem();
         }
-        class ConcreteIterator : Iterator1
+        class ConcreteIterator : Iterator
         {
             private ConcreteAggregate _aggregate;
             private int _current = 0;
