@@ -10,7 +10,7 @@ namespace Command
         {
             Console.WriteLine("This structural code demonstrates the Command pattern which stores requests as objects allowing clients to execute or playback the requests.");
             Receiver receiver = new Receiver();
-            Command1 command = new ConcreteCommand(receiver);
+            Command command = new ConcreteCommand(receiver);
             Invoker invoker = new Invoker();
 
             invoker.SetCommand(command);
@@ -19,18 +19,18 @@ namespace Command
              Called Receiver.Action()
              */
         }
-        abstract class Command1
+        abstract class Command
         {
             protected Receiver receiver;
 
-            public Command1(Receiver receiver)
+            public Command(Receiver receiver)
             {
                 this.receiver = receiver;
             }
 
             public abstract void Execute();
         }
-        class ConcreteCommand : Command1
+        class ConcreteCommand : Command
         {
             public ConcreteCommand(Receiver receiver) : base(receiver)
             {
@@ -50,9 +50,9 @@ namespace Command
         }
         class Invoker
         {
-            private Command1 _command;
+            private Command _command;
 
-            public void SetCommand(Command1 command)
+            public void SetCommand(Command command)
             {
                 this._command = command;
             }
