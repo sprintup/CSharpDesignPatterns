@@ -10,7 +10,7 @@ namespace Interpreter
         public static void Run()
         {
             Console.WriteLine("This structural code demonstrates the Interpreter patterns, which using a defined grammer, provides the interpreter that processes parsed statements.");
-            Context1 context1 = new Context1();
+            Context context1 = new Context();
             ArrayList list = new ArrayList();
             list.Add(new TerminalExpression());
             list.Add(new NonterminalExpression());
@@ -28,21 +28,21 @@ namespace Interpreter
             Called Terminal.Interpret()             
              */
         }
-        class Context1 { }
+        class Context { }
         abstract class AbstractExpression
         {
-            public abstract void Interpret(Context1 context);
+            public abstract void Interpret(Context context);
         }
         class TerminalExpression : AbstractExpression
         {
-            public override void Interpret(Context1 context)
+            public override void Interpret(Context context)
             {
                 Console.WriteLine("Called Terminal.Interpret()");
             }
         }
         class NonterminalExpression : AbstractExpression
         {
-            public override void Interpret(Context1 context)
+            public override void Interpret(Context context)
             {
                 Console.WriteLine("Called Nonterminal.Interpret()");
             }
