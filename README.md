@@ -7,7 +7,7 @@ A Repository to practice and demonstrate proficiency with design patterns in C#
    - https://medium.com/walkme-engineering/how-to-merge-a-git-submodule-into-its-main-repository-d83a215a319c
 
 ## How to use
-- Set a breakpoint at the first line of the program file for the design pattern to study and step into the program using f11. Make sure you have it set as the startup project by right clicking the program file. Have both the structural file and real world file open, along with the program file and the UML diagram.
+- Set a breakpoint at the first line of the program file for the design pattern to study and step into the program using f11. Make sure you have it set as the startup project by right clicking the program file. Have both the structural file and real world file open, along with the program file and the UML diagram. I've marked the most common design patterns below. Open up a new practice class and rewrite the patterns until you can produce them from memory, starting with the most common. 
 
 
 ## Frequency of use
