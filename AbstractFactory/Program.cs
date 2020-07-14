@@ -8,12 +8,13 @@ namespace CSharpDesignPatternPractice
         static void Main(string[] args)
         {
             /*
+             */
             Console.WriteLine("Hello World! \nAbstract factory: Provide an interface for creating families of related or dependent objects without specifying their concrete classes.");
             AbstractFactoryStructural.Run();
             Console.WriteLine("-----");
             AbstractFactoryRealWorld.Run();
-             */
-            AbstractFactoryPractice.Run();
+            Console.WriteLine("-----");
+            AbstractFactoryStructuralPractice.Run();
             Console.ReadKey();
         }
     }
