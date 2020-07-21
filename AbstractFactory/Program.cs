@@ -1,4 +1,5 @@
 ﻿using AbstractFactory;
+using AbstractFactoryPractice;
 using System;
 
 namespace CSharpDesignPatternPractice
@@ -15,6 +16,8 @@ namespace CSharpDesignPatternPractice
             AbstractFactoryRealWorld.Run();
             Console.WriteLine("-----");
             AbstractFactoryStructuralPractice.Run();
+            Console.WriteLine("-----");
+            AbstractFactoryRealWorldPractice.Run();
             Console.ReadKey();
         }
     }
