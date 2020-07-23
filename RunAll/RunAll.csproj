@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj" />
+    <ProjectReference Include="..\Adapter\Adapter.csproj" />
+    <ProjectReference Include="..\Bridge\Bridge.csproj" />
+    <ProjectReference Include="..\Builder\Builder.csproj" />
+    <ProjectReference Include="..\Chain of Responsibility\Chain of Responsibility.csproj" />
+    <ProjectReference Include="..\Command\Command.csproj" />
+    <ProjectReference Include="..\Composite\Composite.csproj" />
+    <ProjectReference Include="..\Decorator\Decorator.csproj" />
+    <ProjectReference Include="..\Facade\Facade.csproj" />
+    <ProjectReference Include="..\Factory_Method\Factory_Method.csproj" />
+    <ProjectReference Include="..\Flyweight\Flyweight.csproj" />
+    <ProjectReference Include="..\Interpreter\Interpreter.csproj" />
+    <ProjectReference Include="..\Iterator\Iterator.csproj" />
+    <ProjectReference Include="..\Mediator\Mediator.csproj" />
+    <ProjectReference Include="..\Memento\Memento.csproj" />
+    <ProjectReference Include="..\Observer\Observer.csproj" />
+    <ProjectReference Include="..\Prototype\Prototype.csproj" />
+    <ProjectReference Include="..\Proxy\Proxy.csproj" />
+    <ProjectReference Include="..\Singleton\Singleton.csproj" />
+    <ProjectReference Include="..\State\State.csproj" />
+    <ProjectReference Include="..\Strategy\Strategy.csproj" />
+    <ProjectReference Include="..\Visitor\Visitor.csproj" />
+  </ItemGroup>
+
+</Project>

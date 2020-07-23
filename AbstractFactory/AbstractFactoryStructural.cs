@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AbstractFactory
 {
-    class AbstractFactoryStructural
+    public class AbstractFactoryStructural
     {
         public static void Run()
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AbstractFactory
 {
-    class AbstractFactoryRealWorld
+    public class AbstractFactoryRealWorld
     {
         public static void Run()
         {
