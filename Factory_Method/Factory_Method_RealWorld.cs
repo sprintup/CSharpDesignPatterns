@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Factory_Method
 {
-    class Factory_Method_RealWorld
+    public class Factory_Method_RealWorld
     {
         public static void Run()
         {

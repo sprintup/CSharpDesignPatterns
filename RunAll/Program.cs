@@ -1,5 +1,6 @@
 ﻿using System;
 using AbstractFactory;
+using Factory_Method;
 
 namespace RunAll
 {
@@ -11,14 +12,25 @@ namespace RunAll
 
             NewPattern(5);
             AbstractFactory.Program.Description();
-            AbstractFactory.AbstractFactoryStructural.Run();
-            AbstractFactory.AbstractFactoryRealWorld.Run();
+            AbstractFactoryStructural.Run();
+            Seperate();
+            AbstractFactoryRealWorld.Run();
 
+            NewPattern(5);
+            Factory_Method.Program.Description();
+            Factory_Method_Structural.Run();
+            Seperate();
+            Factory_Method_RealWorld.Run();
         }
 
         static void NewPattern(int frequencyOfUse)
         {
             Console.WriteLine("\n*****  {0} of 5", frequencyOfUse.ToString());
+        }
+
+        static void Seperate()
+        {
+            Console.WriteLine("-----");
         }
     }
 }
