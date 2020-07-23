@@ -3,15 +3,20 @@ using System.Collections;
 
 namespace Iterator
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! \nIterator: Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.");
+            Description();
             Iterator_Structural.Run();
             Console.WriteLine("-----");
             Iterator_Real_World.Run();
             Console.ReadKey();
+        }
+
+        public static void Description()
+        {
+            Console.WriteLine("Hello World! \nIterator: Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.");
         }
     }
 }

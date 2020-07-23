@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Observer
 {
-    class Observer_Real_World
+    public class Observer_Real_World
     {
         public static void Run()
         {

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Iterator
 {
-    class Iterator_Real_World
+    public class Iterator_Real_World
     {
         public static void Run()
         {

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Iterator
 {
-    class Iterator_Structural
+    public class Iterator_Structural
     {
         public static void Run()
         {

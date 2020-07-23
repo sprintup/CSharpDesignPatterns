@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Observer
 {
-    class Observer_Structural
+    public class Observer_Structural
     {
         public static void Run()
         {

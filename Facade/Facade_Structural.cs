@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Facade
 {
-    class Facade_Structural
+    public class Facade_Structural
     {
         public static void Run()
         {

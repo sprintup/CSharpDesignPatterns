@@ -18,7 +18,7 @@ namespace Factory_Method
 
         public static void Description()
         {
-            Console.WriteLine("Hello World! \nFactory Method: Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.");
+            Console.WriteLine("Factory Method: Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.");
         }
     }
 }

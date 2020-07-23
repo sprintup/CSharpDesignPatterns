@@ -21,7 +21,7 @@ namespace AbstractFactory
 
         public static void Description()
         {
-            Console.WriteLine("Hello World! \nAbstract factory: Provide an interface for creating families of related or dependent objects without specifying their concrete classes.");
+            Console.WriteLine("Abstract factory: Provide an interface for creating families of related or dependent objects without specifying their concrete classes.");
         }
     }
 }

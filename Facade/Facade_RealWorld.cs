@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Facade
 {
-    class Facade_RealWorld
+    public class Facade_RealWorld
     {
         public static void Run()
         {
