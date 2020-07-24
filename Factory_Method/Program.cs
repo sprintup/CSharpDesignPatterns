@@ -13,6 +13,7 @@ namespace Factory_Method
             FactoryMethod_StructuralPractice.Run();
             Console.WriteLine("-----");
             Factory_Method_RealWorld.Run();
+            FactoryMethod_RealWorldPractice.Run();
             Console.ReadKey();
         }
 
