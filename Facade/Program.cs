@@ -9,6 +9,9 @@ namespace Facade
             Description();
             Facade_Structural.Run();
             Console.WriteLine("-----");
+            Facade_Structural_Practice.Run();
+            
+            Console.WriteLine("-----");
             Facade_RealWorld.Run();
             Console.ReadKey();
         }
@@ -18,8 +21,4 @@ namespace Facade
             Console.WriteLine("Facade: Provide a unified interface to a set of interfaces in a subsystem. Façade defines a higher-level interface that makes the subsystem easier to use.");
         }
     }
-
-
-
-
 }
