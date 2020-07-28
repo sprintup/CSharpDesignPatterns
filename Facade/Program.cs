@@ -13,6 +13,7 @@ namespace Facade
             
             Console.WriteLine("-----");
             Facade_RealWorld.Run();
+            Facade_RealWorld_Practice.Run();
             Console.ReadKey();
         }
 
