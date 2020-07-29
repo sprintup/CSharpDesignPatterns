@@ -9,6 +9,7 @@ namespace Iterator
         {
             Description();
             Iterator_Structural.Run();
+            Iterator_Structural_Practice.Run();
             Console.WriteLine("-----");
             Iterator_Real_World.Run();
             Console.ReadKey();
