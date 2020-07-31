@@ -9,6 +9,7 @@ namespace Observer
         {
             Description();
             Observer_Structural.Run();
+            Observer_Structural_Practice.Run();
             Console.WriteLine("-----");
             Observer_Real_World.Run();
             Console.ReadKey();
