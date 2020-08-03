@@ -12,6 +12,7 @@ namespace Observer
             Observer_Structural_Practice.Run();
             Console.WriteLine("-----");
             Observer_Real_World.Run();
+            Observer_Real_World_Practice.Run();
             Console.ReadKey();
         }
 
