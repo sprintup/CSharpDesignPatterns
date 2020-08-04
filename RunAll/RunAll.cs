@@ -78,18 +78,18 @@ namespace RunAll
 
 
             NewPattern(4, 2);
-
+            Composite.Program.Description();
             Seperate();
-
+            Composite_Structural.Run();
             Seperate();
-
+            Composite_RealWorld.Run();
 
             NewPattern(4, 2);
-
+            Proxy.Program.Description();
             Seperate();
-
+            Proxy_Structural.Run();
             Seperate();
-
+            Proxy_RealWorld.Run();
 
             NewPattern(4, 2);
 

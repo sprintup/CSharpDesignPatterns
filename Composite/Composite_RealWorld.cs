@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Composite
 {
-    class Composite_RealWorld
+    public class Composite_RealWorld
     {
         public static void Run()
         {

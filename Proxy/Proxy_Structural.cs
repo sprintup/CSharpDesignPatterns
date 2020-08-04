@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Proxy
 {
-    class Proxy_Structural
+    public class Proxy_Structural
     {
         public static void Run()
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Composite
 {
-    class Composite_Structural
+    public class Composite_Structural
     {
         public static void Run()
         {

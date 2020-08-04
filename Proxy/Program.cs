@@ -2,15 +2,20 @@
 
 namespace Proxy
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! \nProxy: Provide a surrogate or placeholder for another object to control access to it.");
+            Description();
             Proxy_Structural.Run();
             Console.WriteLine("-----");
             Proxy_RealWorld.Run();
             Console.ReadKey();
+        }
+
+        public static void Description()
+        {
+            Console.WriteLine("\n Proxy: Provide a surrogate or placeholder for another object to control access to it.");
         }
     }
 }

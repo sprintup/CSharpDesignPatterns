@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Proxy
 {
-    class Proxy_RealWorld
+    public class Proxy_RealWorld
     {
         public static void Run()
         {
