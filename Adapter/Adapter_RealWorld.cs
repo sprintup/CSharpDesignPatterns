@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Adapter
 {
-    class Adapter_RealWorld
+    public class Adapter_RealWorld
     {
         public static void Run()
         {

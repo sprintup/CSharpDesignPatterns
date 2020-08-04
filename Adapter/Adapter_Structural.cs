@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Adapter
 {
-    class Adapter_Structural
+    public class Adapter_Structural
     {
         public static void Run()
         {

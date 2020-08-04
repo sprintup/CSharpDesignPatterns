@@ -5,6 +5,11 @@ using Facade;
 using Iterator;
 using Observer;
 using Singleton;
+using Adapter;
+using Composite;
+using Proxy;
+using Command;
+using Strategy;
 
 namespace RunAll
 {
@@ -63,7 +68,41 @@ namespace RunAll
             Singleton_Structural.Run();
             Seperate();
             Singleton_RealWorld.Run();
-            
+
+            NewPattern(4, 2);
+            Adapter.Program.Description();
+            Seperate();
+            Adapter_Structural.Run();
+            Seperate();
+            Adapter_RealWorld.Run();
+
+
+            NewPattern(4, 2);
+
+            Seperate();
+
+            Seperate();
+
+
+            NewPattern(4, 2);
+
+            Seperate();
+
+            Seperate();
+
+
+            NewPattern(4, 2);
+
+            Seperate();
+
+            Seperate();
+
+
+            NewPattern(4, 2);
+
+            Seperate();
+
+            Seperate();
         }
         /// <summary>Start a new pattern to run through</summary>
         /// <param name="frequencyOfUse">Scale out of 5 with 5 being most frequent</param>
