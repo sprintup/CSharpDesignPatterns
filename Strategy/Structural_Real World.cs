@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Strategy
 {
-    class Strategy_Real_World
+    public class Strategy_Real_World
     {
         public static void Run()
         {

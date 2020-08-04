@@ -99,10 +99,11 @@ namespace RunAll
             Command_Real_World.Run();
 
             NewPattern(4, 2);
-
+            Strategy.Program.Description();
             Seperate();
-
+            Strategy_Structural.Run();
             Seperate();
+            Strategy_Real_World.Run();
         }
         /// <summary>Start a new pattern to run through</summary>
         /// <param name="frequencyOfUse">Scale out of 5 with 5 being most frequent</param>

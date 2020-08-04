@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Strategy
 {
-    class Strategy_Structural
+    public class Strategy_Structural
     {
         public static void Run()
         {
