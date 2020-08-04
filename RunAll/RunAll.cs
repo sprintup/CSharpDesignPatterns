@@ -4,6 +4,7 @@ using Factory_Method;
 using Facade;
 using Iterator;
 using Observer;
+using Singleton;
 
 namespace RunAll
 {
@@ -12,7 +13,8 @@ namespace RunAll
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! Lets run all the design patterns from most used to least, Structural and Real World, in the order Creational -> Structural -> Behavioral");
-            Level5Patterns();
+            //Level5Patterns();
+            Level4Patterns();
         }
 
         private static void Level5Patterns()
@@ -53,6 +55,16 @@ namespace RunAll
             Observer_Real_World.Run();
         }
 
+        private static void Level4Patterns() 
+        {
+            NewPattern(4, 1);
+            Singleton.Program.Description();
+            Seperate();
+            Singleton_Structural.Run();
+            Seperate();
+            Singleton_RealWorld.Run();
+            
+        }
         /// <summary>Start a new pattern to run through</summary>
         /// <param name="frequencyOfUse">Scale out of 5 with 5 being most frequent</param>
         /// <param name="type">1 = Creational, 2 = Structural, 3 = Behavioral</param>

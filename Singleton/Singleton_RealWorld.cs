@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Singleton
 {
-    class Singleton_RealWorld
+    public class Singleton_RealWorld
     {
         public static void Run()
         {
