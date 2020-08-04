@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Command
 {
-    class Command_Real_World
+    public class Command_Real_World
     {
         public static void Run()
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Command
 {
-    class Command_Structural
+    public class Command_Structural
     {
         public static void Run()
         {

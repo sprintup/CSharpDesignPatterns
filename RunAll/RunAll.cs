@@ -92,11 +92,11 @@ namespace RunAll
             Proxy_RealWorld.Run();
 
             NewPattern(4, 2);
-
+            Command.Program.Description();
             Seperate();
-
+            Command_Structural.Run();
             Seperate();
-
+            Command_Real_World.Run();
 
             NewPattern(4, 2);
 
