@@ -76,7 +76,6 @@ namespace RunAll
             Seperate();
             Adapter_RealWorld.Run();
 
-
             NewPattern(4, 2);
             Composite.Program.Description();
             Seperate();

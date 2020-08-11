@@ -10,6 +10,7 @@ namespace Singleton
             Description();
 
             Singleton_Structural.Run();
+            Singleton_Structural_Practice.Run();
             Console.WriteLine("-----");
             Singleton_RealWorld.Run();
 
