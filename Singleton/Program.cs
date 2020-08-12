@@ -13,6 +13,7 @@ namespace Singleton
             Singleton_Structural_Practice.Run();
             Console.WriteLine("-----");
             Singleton_RealWorld.Run();
+            Singleton_RealWorld_Practice.Run();
 
             Console.ReadKey();
         }
