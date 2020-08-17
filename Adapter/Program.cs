@@ -8,6 +8,7 @@ namespace Adapter
         {
             Description();
             Adapter_Structural.Run();
+            Adapter_Structural_Practice.Run();
             Console.WriteLine("-----");
             Adapter_RealWorld.Run();
 

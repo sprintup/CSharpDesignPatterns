@@ -90,14 +90,14 @@ namespace RunAll
             Seperate();
             Proxy_RealWorld.Run();
 
-            NewPattern(4, 2);
+            NewPattern(4, 3);
             Command.Program.Description();
             Seperate();
             Command_Structural.Run();
             Seperate();
             Command_Real_World.Run();
 
-            NewPattern(4, 2);
+            NewPattern(4, 3);
             Strategy.Program.Description();
             Seperate();
             Strategy_Structural.Run();

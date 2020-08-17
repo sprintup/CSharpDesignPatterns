@@ -55,7 +55,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{C2ACB312-773F-4A70-B75E-8DC920E10B1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunAll", "RunAll\RunAll.csproj", "{5AB94B96-734D-4B67-A9BA-6CF007A344C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunAll", "RunAll\RunAll.csproj", "{5AB94B96-734D-4B67-A9BA-6CF007A344C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A15534E-C8DD-4EE3-A527-C0C9E168D2DA}"
 	ProjectSection(SolutionItems) = preProject
