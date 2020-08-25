@@ -11,6 +11,7 @@ namespace Adapter
             Adapter_Structural_Practice.Run();
             Console.WriteLine("-----");
             Adapter_RealWorld.Run();
+            Adapter_RealWorld_Practice.Run();
 
             Console.ReadKey();
         }
