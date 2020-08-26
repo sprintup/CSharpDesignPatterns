@@ -10,6 +10,7 @@ namespace Composite
             Description();
 
             Composite_Structural.Run();
+            Composite_Structural_Practice.Run();
             Console.WriteLine("-----");
             Composite_RealWorld.Run();
 
