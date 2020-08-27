@@ -13,6 +13,7 @@ namespace Composite
             Composite_Structural_Practice.Run();
             Console.WriteLine("-----");
             Composite_RealWorld.Run();
+            Composite_RealWorld_Practice.Run();
 
             Console.ReadKey();
         }

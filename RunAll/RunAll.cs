@@ -15,9 +15,11 @@ namespace RunAll
 {
     class RunAll
     {
+        public static int patternNumber { get; set; }
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! Lets run all the design patterns from most used to least, Structural and Real World, in the order Creational -> Structural -> Behavioral");
+            patternNumber = 0;
             Level5Patterns();
             Level4Patterns();
         }
@@ -109,6 +111,7 @@ namespace RunAll
         /// <param name="type">1 = Creational, 2 = Structural, 3 = Behavioral</param>
         static void NewPattern(int frequencyOfUse, int type)
         {
+            patternNumber++;
             string designPatternType = "";
             switch (type)
             {
@@ -124,7 +127,7 @@ namespace RunAll
                 default:
                     break;
             }
-            Console.WriteLine("\n*****  {0} of 5 | {1}", frequencyOfUse.ToString(),designPatternType);
+            Console.WriteLine("\n*****  {0} of 5 | {1} | {2}", frequencyOfUse.ToString(),designPatternType, patternNumber.ToString());
         }
 
         static void Seperate()
