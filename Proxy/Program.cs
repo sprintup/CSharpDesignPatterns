@@ -8,6 +8,7 @@ namespace Proxy
         {
             Description();
             Proxy_Structural.Run();
+            Proxy_Structural_Practice.Run();
             Console.WriteLine("-----");
             Proxy_RealWorld.Run();
             Console.ReadKey();

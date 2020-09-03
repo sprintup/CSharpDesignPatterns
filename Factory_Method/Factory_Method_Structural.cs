@@ -24,13 +24,19 @@ namespace Factory_Method
             Created ConcreteProductB          
              */
         }
+
+
         abstract class Product { }
+
         class ConcreteProductA : Product { }
         class ConcreteProductB : Product { }
+
+
         abstract class Creator
         {
             public abstract Product FactoryMethod();
         }
+
         class ConcreteCreatorA : Creator
         {
             public override Product FactoryMethod()
