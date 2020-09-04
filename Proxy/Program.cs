@@ -11,6 +11,7 @@ namespace Proxy
             Proxy_Structural_Practice.Run();
             Console.WriteLine("-----");
             Proxy_RealWorld.Run();
+            Proxy_Real_World_Practice.Run();
             Console.ReadKey();
         }
 
