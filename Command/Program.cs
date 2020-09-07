@@ -8,6 +8,7 @@ namespace Command
         static void Main(string[] args)
         {
             Command_Structural.Run();
+            Command_Structural_Practice.Run();
             Console.WriteLine("-----");
             Command_Real_World.Run();
             Console.ReadKey();
