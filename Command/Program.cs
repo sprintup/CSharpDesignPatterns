@@ -11,6 +11,7 @@ namespace Command
             Command_Structural_Practice.Run();
             Console.WriteLine("-----");
             Command_Real_World.Run();
+            Command_Real_World_Practice.Run();
             Console.ReadKey();
         }
 
